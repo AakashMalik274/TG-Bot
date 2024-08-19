@@ -12,6 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code
 COPY . .
 
+EXPOSE 8080
+
 # Set environment variables
 # ENV BOT_TOKEN='MY_BOT_TOKEN' 
 
